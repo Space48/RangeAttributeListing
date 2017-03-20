@@ -1,5 +1,5 @@
 # RangeAttributeListing
-**Version 0**
+**Version 0.0.1**
 
 In the project's composer.json file add the repo:
 
