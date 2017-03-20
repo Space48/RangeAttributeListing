@@ -1,0 +1,10 @@
+<?php /** @var Space48\RangeAttributeListing\Block\Link $block */  ?>
+<?php if ($rangeUrl = $block->getRangeCategoryProductLink()): ?>
+    <div class="gallery__shop-all-wrapper">
+        <a href="<?php echo $block->escapeXssInUrl($rangeUrl); ?>" class="gallery__shop-all">
+            <span data-bind="i18n: 'Shop all '"></span>
+            <b><?php echo $block->escapeHtml($block->getRangeCategoryOptionText())  ?></b>
+            <span data-bind="i18n: ' products'"></span>
+        </a>
+    </div>
+<?php endif ?>

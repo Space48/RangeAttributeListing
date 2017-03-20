@@ -1,0 +1,14 @@
+<?php /** @var Space48\RangeAttributeListing\Block\Link $block */  ?>
+<?php if ($rangeUrl = $block->getRangeCategoryProductLink()): ?>
+    <div class="related-products__range">
+        <a href="<?php echo $block->escapeXssInUrl($rangeUrl); ?>">
+            <span data-bind="i18n: 'More from the '"></span>
+            <b class="related-products__range-link"><?php echo $block->escapeHtml($block->getRangeCategoryOptionText())  ?></b>
+            <span data-bind="i18n: ' range:'"></span>
+        </a>
+    </div>
+<?php else: ?>
+    <div class="related-products__range">
+        <b>Related Products</b>
+    </div>
+<?php endif; ?>
