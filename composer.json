@@ -8,7 +8,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Space48\\RangeAttributeListing\\": ""
+            "space48\\RangeAttributeListing\\": ""
         }
     }
 }
