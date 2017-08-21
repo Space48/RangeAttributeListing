@@ -1,14 +1,14 @@
 {
-    "name": "Space48/RangeAttributeListing",
+    "name": "space48/range_attribute_listing",
     "description": "Add a link to products assigned to the range category",
     "type": "magento2-module",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "space48\\RangeAttributeListing\\": ""
+            "Space48\\RangeAttributeListing\\": ""
         }
     }
 }
